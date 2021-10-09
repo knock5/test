@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="form-dua.css">
+
+    <title>Form Sign Up</title>
+</head>
+<body>
+
+    <div class="form">
+        <div class="flex-container">
+            <div class="judul">
+                <h1>Form Registration</h1>
+            </div>
+        </div>
+        <div class="flex-container"">
+            <div class="info-one">
+                <label for="fname">- First Name : </label>
+                <br>
+                <input type="text" id="fname" name="fname" placeholder=" Enter first name">
+                <br>
+                <label for="lname">- Last Name : </label>
+                <br>
+                <input type="text" id="lname" name="lname" placeholder=" Enter last name">
+                <br>
+                <label for="email">- Email :</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder=" Enter your email">
+                <br>
+                <label for="token">- Token :</label>
+                <br>
+                <input type="password" name="token" id="token" placeholder=" Enter your token code">
+            </div>
+            <div class="info-two">
+                <p>- Gender :</p>
+                <input type="radio" id="male" name="is_gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="is_gender" value="Female">
+                <label for="female">Female</label>
+                <p>- Choose the course : </p>
+                <input type="checkbox" id="html" name="HTML_course" value="HTML">
+                <label for="html">HTML for beginner</label>
+                <br>
+                <input type="checkbox" id="css" name="CSS_course" value="CSS">
+                <label for="CSS">CSS for beginner</label>
+            </div>
+        </div>
+        <div class="kotak-tombol">
+            <input class="tombol" type="button" value="Sign Up">
+        </div>
+    </div>
+    
+</body>
+</html>

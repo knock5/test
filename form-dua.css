@@ -1,0 +1,117 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(240, 238, 238);
+}
+ 
+.form {
+    background-color: rgb(53, 82, 58);
+    margin: 70px auto;
+    color: rgba(255, 255, 255, 0.808);
+    width: 50%;
+    border: 10px solid rgb(1, 133, 12);
+    border-radius: 20px;
+}
+
+.flex-container {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.judul {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.info-one {
+    flex: 1.5;
+    margin: 10px 0px 10px 50px;
+    font-size: 18px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.info-two {
+    flex: 1;
+    font-size: 18px;
+    margin: 10px 50px 10px 0px;
+    box-sizing: border-box;
+}
+
+#fname {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 7px 0px 7px 13px;
+}
+
+#lname {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 7px 0px 7px 13px;
+}
+
+#email {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 7px 0px 7px 13px;
+}
+
+#token {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 7px 0px 7px 13px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+#male {
+    margin: 7px 0px 7px 13px;
+}
+
+#female {
+    margin: 7px 0px 7px 13px;
+}
+
+#html {
+    margin: 7px 0px 7px 13px;
+}
+
+#css {
+    margin: 7px 0px 7px 13px;
+}
+
+.kotak-tombol {
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.tombol {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(25, 218, 25);
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.tombol:hover {
+    background-color: rgb(97, 243, 97);
+}
